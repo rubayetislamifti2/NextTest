@@ -13,7 +13,7 @@ const navItems = [
     { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
     { label: "Users", href: "/users", icon: Users },
     { label: "Orders", href: "/orders", icon: ShoppingCart },
-    { label: "Products", href: "/products", icon: Package },
+    { label: "Products", href: "/dashboard/products", icon: Package },
     { label: "Category", href: "/dashboard/category", icon: LayoutGrid },
     { label: "Payments", href: "/payments", icon: CreditCard },
     { label: "Settings", href: "/settings", icon: Settings },
