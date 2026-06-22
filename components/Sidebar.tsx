@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import {useSidebar} from "@/context/SidebarContext";
 import {
     LayoutDashboard, Package, ShoppingCart, Users, Settings,
-    CreditCard, Menu, X, Power, ChevronLeft, ChevronRight,
+    CreditCard, Menu, X, Power, ChevronLeft, ChevronRight,LayoutGrid,
 } from "lucide-react";
 
 const navItems = [
@@ -14,6 +14,7 @@ const navItems = [
     { label: "Users", href: "/users", icon: Users },
     { label: "Orders", href: "/orders", icon: ShoppingCart },
     { label: "Products", href: "/products", icon: Package },
+    { label: "Category", href: "/dashboard/category", icon: LayoutGrid },
     { label: "Payments", href: "/payments", icon: CreditCard },
     { label: "Settings", href: "/settings", icon: Settings },
 ];
